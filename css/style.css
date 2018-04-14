@@ -1,0 +1,46 @@
+:root{
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#msg:hover{
+	background-color:#eeeeee;
+}
+#msgcontainer{
+	background-image: url("../images/background.png");
+   	height: 85vh;
+
+
+}
+.imgAttach{
+	 height:5vh;
+	 width:5vw;
+}
+#msgg{
+	 border-left:6px solid red;
+	 background-color:#eeeeee;
+
+}
+.chat{
+	margin-left: 35vw;
+}
+#msglist{
+	height: 80vh;
+	font-size:2rem;
+}
+#sendermsg{
+	border-left:6px solid red;
+	 background-color:#dcf8c6;
+}
+#main{
+	
+   
+}
+@media screen  and (min-width: 50px) and (max-width: 500px){
+
+    :root{
+        font-size:15px;
+    }
+
+   
+
+}

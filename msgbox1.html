@@ -1,0 +1,299 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Whatsapp, world!</title>
+  </head>
+  <body>
+    <div class= "container-fluid">
+
+  
+      <div class="row "  style="height: 8vh;">
+      
+       <div class="col-md-4  col-lg-4 card d-none d-md-block d-lg-block" style="background-color:#eeeeee;" >
+			         <div class="row">
+			                   <div class="col-md-2">
+                              <a href="profpicview.html" style="color:black;">
+			                                 <img src="images/user.svg" style="height:7vh;width:7vh"/>
+                                       </a>
+			                                    </div>
+			                   <div class="col-6">
+			                     </div>
+			                   <div class="col-md-1">
+
+			                     <a href="#status" data-toggle="tooltip" data-placement="bottom" title="staus"><i class="fa fa-superpowers" style="font-size:30px; margin-top: 7px; margin-right: 4px; color:black;"></i>
+			                    </a>  
+			                   </div>
+			                   <div class="col-md-2">
+			                   
+			                  <a  href="#massage" data-toggle="tooltip" data-placement="bottom" title="New chat"><img src="images/status.png" style="height:5vh;width:5vh; margin-top: 5px; color:black;" /></a>
+			                    </div>
+				                  <div class="col-md-1 col-lg-">
+
+								                      <div class="dropdown">
+								                    
+								                      <a href="#" id="dropdownThreeDotsSingleView" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Menu">
+								                        <i class="fa fa-ellipsis-v" style="font-size:30px; margin-top: 7px; margin-right: 4px; color:black;"></i>
+								                      </a>
+
+
+											                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownThreeDotsSingleView">
+													                        <a class="dropdown-item" href="#">New Group</a>
+													                        <a class="dropdown-item" href="profilepic_view.html">Profile</a>
+													                        <a class="dropdown-item" href="#">Archived</a>
+													                        <a class="dropdown-item" href="#">Starred</a>
+													                        <a class="dropdown-item" href="#">Settings</a>
+													                        <a class="dropdown-item" href="#">Log Out</a>
+
+											                           </div>
+								                      </div>
+
+
+
+
+				                                 </div>
+                                    </div>
+         </div>
+
+
+      
+      <div class="col-md-8  col-lg-8 d-sm-12 card  " style="background-color:#eeeeee; ">
+                <div class="row  ">
+                <div class="col-1">
+                     <img src="images/user.svg" style="height: 7vh;width: 7vh;"/>
+                        </div>
+                <div class="col-7">
+                  <h5>Yogendra </h5>
+                 <small>last seen today at 4:30pm</small>
+              </div>
+               <div class=" offset-1">
+                <a href="#" data-toggle="tooltip" title="Search" style="color:black;">
+                  <i class="fa fa-search icons fa-2x"  style="margin-top:1vh; color:" aria-hidden="true"></i>
+                </a>              
+              </div>
+         <div class="col-2 ">
+
+           <div class="dropdown">
+                    
+                      <a href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Menu" style="color:black;">
+                        <i class="material-icons" style="font-size:36px">attachment</i>
+                      </a>
+
+
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownThreeDotsSingleView">
+                         <a class="dropdown-item" href="#"><img src="images/youtube.svg" class="imgAttach  rounded-circle" > </a>
+                    <a class="dropdown-item" href="#"><img src="images/photo-camera.svg" class="imgAttach rounded-circle"></a>
+                    <a class="dropdown-item" href="#"><img src="images/document.svg" class="imgAttach rounded-circle"></a>
+                    <a class="dropdown-item" href="#"><img src="images/contacts.svg" class="imgAttach rounded-circle"></a>
+                    
+
+
+                      </div>
+                  </div>
+          </div>
+
+       <div class="col-1">
+            <div class="dropdown">
+                    
+                      <a href="#" id="dropdownThreeDotsSingleView" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Menu">
+                        <i class="fa fa-ellipsis-v" style="font-size:30px; margin-top: 7px; margin-right: 4px; color:black;"></i>
+                      </a>
+
+
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownThreeDotsSingleView">
+                         <a class="dropdown-item" href="#">Group Info</a>
+                    <a class="dropdown-item" href="#">Select Messages</a>
+                    <a class="dropdown-item" href="#">Mute</a>
+                    <a class="dropdown-item" href="#">Clear Messages</a>
+                    <a class="dropdown-item" href="#">Delete Chat</a>
+
+
+                      </div>
+                  </div>
+
+       </div>
+
+       </div>
+     
+      </div>
+        </div>
+  
+
+<div class="row  ">
+
+
+   <div class="col-md-4 d-none d-md-block d-lg-block" id="msglist">
+   
+
+
+   <a href="msgbox1.html"  style="text-decoration:none; color:black;">
+  <div class="row border "  id="msg">
+    <div class="col-md-2 col-sm-2 ">
+     <img src="images/user.svg" style="height: 7vh;width: 7vh; margin-left: 1vw;"/>
+     </div>
+     <div class="col-md-7 col-sm-7">
+      <h5>Yogendra </h5>
+             <small>This is some text within a card body.
+  
+                            <span class="text-muted subtext"> 6:20</span>
+                                   </small>
+       </div>
+       <div class="col-md-3 col-sm-3">
+          <small>yesterday</small>
+
+       </div>
+
+       </div>
+       </a>
+
+
+
+<a href="msgbox2.html"  style="text-decoration:none; color:black;">
+  <div class="row border "  id="msg" >
+    <div class="col-2">
+     <img src="images/user.svg" style="height: 7vh;width: 7vh; margin-left: 1vw;"/>
+     </div>
+     <div class="col-md-7">
+      <h5>Group</h5>
+             <small>This is some text within a card body.</small>
+       </div>
+       <div class="col-md-3">
+          <small>yesterday</small>
+            <img src="images/noti.png" style="height: 7vh;width: 7vh; margin-left: 1vw;"/>
+       </div>
+
+       </div>
+       </a>
+
+
+
+
+<a href="msgbox3.html"  style="text-decoration:none; color:black;">
+  <div class="row border "  id="msg">
+    <div class="col-2">
+     <img src="images/user.svg" style="height: 7vh;width: 7vh; margin-left: 1vw;"/>
+     </div>
+     <div class="col-md-7">
+      <h5>Yogesh </h5>
+             <small>This is some text within a card body.</small>
+       </div>
+       <div class="col-md-3">
+          <small>yesterday</small>
+          <img src="images/noti.png" style="height: 7vh;width: 7vh; margin-left: 1vw;"/>
+       </div>
+
+       </div>
+       </a>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div class="col-md-8 " id="msgcontainer" >
+
+     <div class="row ">
+      <div class="col-md-6 d-sm-12">
+       <br>
+       <div class="card border border-left" id="msgg">
+                    <div class="card-body">
+                                  This is some text within a card body.
+                       </div>
+            </div>
+         </div>
+       </div>
+
+         <div class="row justify-content-end">
+      <div class="col-md-6  d-sm-12">
+       <br>
+       <div class="card border border-left" id="sendermsg">
+                    <div class="card-body">
+                                  This is some text within a card body.
+                       </div>
+            </div>
+         </div>
+       </div>
+
+
+
+       <div class="row">
+      <div class="col-md-6 d-sm-12">
+       <br>
+       <div class="card border border-left" id="msgg">
+                    <div class="card-body">
+                                  This is some text within a card body.
+                       </div>
+            </div>
+         </div>
+       </div>
+
+         <div class="row justify-content-end">
+      <div class="col-md-6 d-sm-12 ">
+       <br>
+       <div class="card border border-left" id="sendermsg">
+                    <div class="card-body">
+                                  This is some text within a card body.
+                       </div>
+            </div>
+         </div>
+       </div>
+
+    
+    </div>
+    </div>
+    <div class="container-fluid">
+
+					    <div class="row justify-content-end">
+					     
+							     <div class="col-md-1 "  >
+							        <img src="images/emo.png" style="height:4vh; width: 4vw; margin-top: 2vh;" />
+							     </div>
+							     <div class="col-md-6"  >
+							                            
+																	 <div class="input-group mb-3" style="margin-top:1px;">
+																			 
+																			  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Type a message">
+																			</div>
+																	  
+
+							     </div>
+
+							     <div class="col-md-1"  >
+							       <img src="images/speaker.jpg" style="height:4vh; width: 4vw;" />
+							     </div>
+
+              </div>
+
+
+					    
+					   </div>
+
+</div>
+
+   
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
